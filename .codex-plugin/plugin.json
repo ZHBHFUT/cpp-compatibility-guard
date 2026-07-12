@@ -1,0 +1,18 @@
+{
+  "name": "cpp-compatibility-guard",
+  "version": "0.1.0",
+  "description": "Detect and prevent unintended C++ source, ABI, data, build, behavior, and numerical compatibility breaks.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Cpp Compatibility Guard",
+    "shortDescription": "Guard C++ compatibility across changes.",
+    "longDescription": "Review C++ changes against project-defined compatibility targets, propose minimal repairs, and verify supported build and test matrices.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Check this C++ change for source, ABI, data, build, behavior, and numerical compatibility risks."
+  }
+}
